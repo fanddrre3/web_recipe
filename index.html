@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
     <head>
         <title>Resep Makanan</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./style.css">
     </head>
 
     <body>
-        <h1>Resep Makanan</h1>
-        <a href="recipes/lasagna.html">Resep Lasagna</a>
+
+        <div>
+            <h2 class="ikon">
+                Resep.id</h2>
+        </div>
+
+        <div class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="#news">Berita</a>
+            <a href="#contact">Kontak</a>
+            <a href="#about">Tentang</a>
+            <div class="search-container">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search..." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <a href="#help" class="split">Bantuan</a>
+        </div>
+
+        <div>
+            <h1 class="title">Resep Makanan</h1>
+            <h2 id="desc">Berikut ini adalah beberapa resep-resep makanan yang telah kami sediakan  resep-resep makanan ini ada yang berasal dari Italia yakni Lasagna, 
+                dan berasal dari Indonesia yakni Pecel dan Tahu Gejrot</h2>
+        </div>
+
+        <ul>
+            <li id="recipe-1"><a href="recipes/lasagna.html"><span id="lasagna">
+                <img src="./images/lasagna.jpg" alt="lasagna-img" width="200px" height="100px">Resep Lasagna</span></a></li>
+            <li id="recipe-2"><a href="recipes/pecel.html"><nav class="pecel">
+                <img src="./images/pecel.jpg" alt="pecel-img" width="200px" height="100px">Resep Pecel</nav></a></li>
+            <li id="recipe-3"><a href="recipes/tahu-gejrot.html"><span class="tahu">
+                <img src="./images/tahu.jpg" alt="tahu-img" width="200px" height="100px">Resep Tahu Gejrot</span></a></li>
+          </ul>
     </body>
 </html>
