@@ -54,7 +54,12 @@ li {
 } 
 
 nav.lasagna{
-
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 2em;
+    padding-left: 10px;
+    padding-right: 12px;
+    padding-bottom: 10px;
 }
 
 nav.tahu {
@@ -92,6 +97,10 @@ nav.pecel {
 /* link text */
 
 .lasagna-text {
+    color: #353839;
+}
+
+.pecel-text {
     color: #353839;
 }
 
