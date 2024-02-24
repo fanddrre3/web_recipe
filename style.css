@@ -3,11 +3,11 @@
 }
 h1 {
     color: rgba(221, 220, 189, 0.871);
-    font-weight: bold;
     font-style: oblique;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
 }
+
+
 
 /* Topnav  */
 
@@ -40,18 +40,24 @@ h1 {
 }
 
 /**/
+
 li {
-    font-weight: bolder;
+    margin: auto;
+    display: block;
+    text-align: center;
 }
 
 #recipe-1 {
     border: 7px solid seagreen;
+    margin-bottom: 10px;
 }
 #recipe-2 {
     border: 7px solid red;
+    margin-bottom: 10px;
 }
 #recipe-3 {
     border: 7px solid purple;
+    margin-bottom: 10px;
 } 
 
 nav.lasagna{
@@ -86,12 +92,12 @@ nav.pecel {
 }
 
 .title {
-    display: inline-block;
+    text-align: center;
     padding: 4px;
     color: #353839;
 }
 #desc {
-    color: #3b444b;
+    color: #353835;
     margin: 3px 10px;
     padding: 10px 4px;
 }
