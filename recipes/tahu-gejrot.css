@@ -52,3 +52,16 @@ img {
     margin: auto;
     display: block;
 }
+
+h3 {
+    margin: auto;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+li {
+    margin: auto;
+}
