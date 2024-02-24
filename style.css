@@ -6,7 +6,7 @@ h1 {
     font-weight: bold;
     font-style: oblique;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    align-self: center;
+    text-align: center;
 }
 
 /* Topnav  */
@@ -45,13 +45,13 @@ li {
 }
 
 #recipe-1 {
-    border: 7px ridge;
+    border: 7px solid seagreen;
 }
 #recipe-2 {
-    border: 7px ridge;
+    border: 7px solid red;
 }
 #recipe-3 {
-    border: 7px ridge;
+    border: 7px solid purple;
 } 
 
 nav.lasagna{
