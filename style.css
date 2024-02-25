@@ -117,3 +117,15 @@ nav.pecel {
 .tahu-text {
     color: #353839;
 }
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex: auto;
+    padding: 20px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+}
