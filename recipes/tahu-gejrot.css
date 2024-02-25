@@ -1,6 +1,10 @@
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 h1 {
-    display: block;
-    text-align: center;
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: 7px solid purple;
     padding: 10px 11px;
     margin: 12px;

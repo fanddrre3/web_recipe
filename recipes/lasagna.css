@@ -1,4 +1,10 @@
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 h1 {
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: 7px solid seagreen;
     padding: 10px 11px;
     margin: 12px;
@@ -15,7 +21,7 @@ h1 {
 }
 
 .ikon {
-    color: rgb(220, 64, 142);
+    color: #f74d89;
 }
 
 .topnav {
