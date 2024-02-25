@@ -10,6 +10,12 @@ h1 {
     margin: 12px;
     width: 500px;
 }
+
+img {
+    width: 550px;
+    height: 300px;
+}
+
 .ba {
     background-color: rgb(120, 232, 76);
     width: 500px;

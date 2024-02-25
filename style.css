@@ -7,9 +7,12 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
-
 /* Topnav  */
+
+img {
+    width: 300px;
+    height: 200px
+}
 
 .topnav {
     overflow: hidden;

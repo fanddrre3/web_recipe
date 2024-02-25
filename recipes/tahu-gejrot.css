@@ -9,6 +9,12 @@ h1 {
     padding: 10px 11px;
     margin: 12px;
 }
+
+img {
+    width: 550px;
+    height: 300px;
+}
+
 .ba {
     background-color: rgb(120, 232, 76);
     width: 500px;
