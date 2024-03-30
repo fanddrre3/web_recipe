@@ -61,15 +61,14 @@ li {
 }
 
 #recipe-1 {
-    border: 50px solid seagreen;
+    background-color: var(--background-color);
     margin-bottom: 10px;
 }
 #recipe-2 {
-    border: 50px solid red;
     margin-bottom: 10px;
 }
 #recipe-3 {
-    border: 50px solid purple;
+    background-color: var(--background-color);
     margin-bottom: 10px;
 } 
 
