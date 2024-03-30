@@ -1,7 +1,6 @@
 :root {
     --font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    --background-color: #171618;
-    --font-weight: bold;
+    --background-color: #983a3a;
 }
 
 body {
@@ -13,10 +12,10 @@ html {
 }
 
 h1 {
-    font-size: var(--font-weight);
+    --font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgba(221, 220, 189, 0.871);
     font-style: oblique;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--font-family);
 }
 
 /* Topnav  */
