@@ -61,17 +61,13 @@ li {
     text-align: center;
 }
 
-#recipe-1 {
+#recipe-1, #recipe-3 {
     background-color: var(--background-color);
     margin-bottom: 10px;
 }
 #recipe-2 {
     margin-bottom: 10px;
 }
-#recipe-3 {
-    background-color: var(--background-color);
-    margin-bottom: 10px;
-} 
 
 nav.lasagna{
     display: inline-block;
