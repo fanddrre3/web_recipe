@@ -45,7 +45,7 @@ img {
 }
 
 .topnav a.active {
-    background-color: #04aa6d;
+    background-color: #aa048e;
     color: white;
 }
 
@@ -152,4 +152,5 @@ div.content {
     margin-left: 200px;
     padding: 1px 16px;
     height: 1000px;
-}   
+}
+
