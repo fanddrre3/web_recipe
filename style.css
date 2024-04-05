@@ -137,3 +137,8 @@ ul nav {
     padding: 16px;
     text-decoration: none;
 }
+
+.sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
