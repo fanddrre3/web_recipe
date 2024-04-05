@@ -142,3 +142,8 @@ ul nav {
     background-color: #04AA6D;
     color: white;
   }
+
+  .sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
