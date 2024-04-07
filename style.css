@@ -53,6 +53,10 @@ img {
     float: right;
 }
 
+div.sidebar {
+    position: absolute;
+}
+
 /**/
 
 li {
